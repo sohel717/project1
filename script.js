@@ -1,23 +1,3 @@
- //js for profile
-
- var btn = document.getElementById('btn1').disabled = true;
-          
- function uploadProfilePicture() {
-
-   const fileInput = document.getElementById('profilePicture');
-   
-   const file = fileInput.files[0];
-   if (file) {
-     const reader = new FileReader();
-     reader.onload = function(e) {
-       const preview = document.getElementById('preview');
-       preview.innerHTML = '<img src="' + e.target.result + '" class="img-fluid" alt="Profile Picture">';
-     }
-     reader.readAsDataURL(file);
-     btn = document.getElementById('btn1').disabled = false;
-   }
- };
-
 
  //js for card
  
