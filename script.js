@@ -4,7 +4,7 @@
  let card1 = document.getElementById('card1');
  let card2 = document.getElementById('card2');
  let card3 = document.getElementById('card3');
- var finish = document.getElementById('finish');
+ let finish = document.getElementById('finish');
  
  finish.disabled = true;
 
